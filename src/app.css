@@ -1,0 +1,82 @@
+.App {
+	background-image: url("math.jpg");
+	padding: 120px;
+}
+.calculator {
+	margin: auto;
+	margin-top: 20px;
+	width: 302px;
+ 	height: 480px;
+ 	padding: 25px;
+ 	box-sizing: border-box;
+ 	border: 1px solid;
+ 	border-radius: 3px;
+	background-image: linear-gradient(#808080, #C0C0C0);
+}
+
+.input {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+button.clear {
+	width: 116px;
+	height: 48px;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #00FFFF;
+	border-radius: 3px;
+	color: white;
+	background-color: #00FFFF;
+}
+
+button.cInput {
+	width: 48px;
+	height: 48px;
+	border: 1px solid black;
+	border-radius: 3px;
+	font-size: 30px;
+}
+
+button.cInput.zero {
+	width: 184px;
+	text-align: center;
+	padding-left: 15px;
+}
+
+button.cInput.numeric {
+	background: #ffffff;
+}
+
+button.cInput.operator {
+	box-sizing: border-box;
+	padding-bottom: 6px;
+}
+
+button:hover {
+	background-color: #BDBABA;
+}
+
+.calculatorResult {
+	text-align: right;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.calculatorResult div:first-child {
+	color: #C0C0C0;
+	font-size: 25px;
+	height:50px;
+}
+
+.calculatorResult div:last-child {
+	color: black;
+	font-size: 30px;
+}
+
+.calculationDisplay, .resultDisplay {
+	overflow: hidden;
+	white-space: nowrap;
+}
